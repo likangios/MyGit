@@ -1,0 +1,17 @@
+//
+//  FirstGitDemo.pch
+//  FirstGitDemo
+//
+//  Created by 李康 on 15/6/18.
+//  Copyright (c) 2015年 Luck. All rights reserved.
+//
+#ifndef FirstGitDemo_FirstGitDemo_pch
+
+#define FirstGitDemo_FirstGitDemo_pch
+
+#import <AFNetworking.h>
+#import <SDImageCache.h>
+#import <MBProgressHUD.h>
+#import <MWPhotoBrowser.h>
+
+#endif
