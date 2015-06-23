@@ -20,6 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - Colours (5.6.2)
   - DACircularProgress (2.3.1)
   - libPhoneNumber-iOS (0.7.6)
   - MBProgressHUD (0.9.1)
@@ -35,6 +36,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
+  - Colours (~> 5.6.2)
   - libPhoneNumber-iOS (~> 0.7.6)
   - MBProgressHUD (~> 0.8)
   - MWPhotoBrowser
@@ -42,6 +44,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Colours: 0afd4c3429656880fd4cff350ca3bf0ab86ca348
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   libPhoneNumber-iOS: fb90c5e0d100923b61f0db81de56daefbb67b103
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
@@ -49,4 +52,4 @@ SPEC CHECKSUMS:
   PSTCollectionView: 6749df92885353521f55279a7ce2b293762e2be4
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.36.1

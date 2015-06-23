@@ -48,6 +48,12 @@
 #define COCOAPODS_VERSION_MINOR_AFNetworking_UIKit 5
 #define COCOAPODS_VERSION_PATCH_AFNetworking_UIKit 4
 
+// Colours
+#define COCOAPODS_POD_AVAILABLE_Colours
+#define COCOAPODS_VERSION_MAJOR_Colours 5
+#define COCOAPODS_VERSION_MINOR_Colours 6
+#define COCOAPODS_VERSION_PATCH_Colours 2
+
 // DACircularProgress
 #define COCOAPODS_POD_AVAILABLE_DACircularProgress
 #define COCOAPODS_VERSION_MAJOR_DACircularProgress 2

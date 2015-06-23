@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8C654941B3809D50001E873 /* LZUnity.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C654931B3809D50001E873 /* LZUnity.m */; };
 		E307ABE2176A2C6294AEA27E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1738616637EF2313A911BB /* libPods.a */; };
 		FEB78EC71B329C4F006F68AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB78EC61B329C4F006F68AB /* main.m */; };
 		FEB78ECA1B329C4F006F68AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB78EC91B329C4F006F68AB /* AppDelegate.m */; };
@@ -33,6 +34,8 @@
 		11ACC026E53DA9E4F97EB4F9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		35EE5B0E2CBB3820AE9F7A2B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		3A1738616637EF2313A911BB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C654921B3809D50001E873 /* LZUnity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZUnity.h; sourceTree = "<group>"; };
+		C8C654931B3809D50001E873 /* LZUnity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZUnity.m; sourceTree = "<group>"; };
 		FEB78EC11B329C4F006F68AB /* FirstGitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstGitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB78EC51B329C4F006F68AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEB78EC61B329C4F006F68AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				FEB78EF91B32B3DE006F68AB /* Views */,
 				FEB78EC81B329C4F006F68AB /* AppDelegate.h */,
 				FEB78EC91B329C4F006F68AB /* AppDelegate.m */,
+				C8C654921B3809D50001E873 /* LZUnity.h */,
+				C8C654931B3809D50001E873 /* LZUnity.m */,
 				FEB78ECB1B329C4F006F68AB /* ViewController.h */,
 				FEB78ECC1B329C4F006F68AB /* ViewController.m */,
 				FEB78ECE1B329C4F006F68AB /* Main.storyboard */,
@@ -357,6 +362,7 @@
 				FEB78ECD1B329C4F006F68AB /* ViewController.m in Sources */,
 				FEB78ECA1B329C4F006F68AB /* AppDelegate.m in Sources */,
 				FEB78F041B32B478006F68AB /* HttpActionMgr.m in Sources */,
+				C8C654941B3809D50001E873 /* LZUnity.m in Sources */,
 				FEB78EC71B329C4F006F68AB /* main.m in Sources */,
 				FEB78F091B32BA37006F68AB /* ActionBase.m in Sources */,
 			);
@@ -488,6 +494,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FirstGitDemo/FirstGitDemo.pch";
 				INFOPLIST_FILE = FirstGitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -501,6 +508,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FirstGitDemo/FirstGitDemo.pch";
 				INFOPLIST_FILE = FirstGitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

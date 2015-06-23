@@ -24,4 +24,5 @@
  */
 - (AFHTTPRequestOperationManager *)getHttpRequstMgr;
 
+- (void)ClearCookie;
 @end

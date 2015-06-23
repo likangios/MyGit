@@ -92,15 +92,27 @@
     
     return self;
 }
--(BOOL)dsafds{
+- (BOOL)DoActionWithSuccess:(ActionSuccessBlocks)success Failure:(ActionFailureBlocks)failure{
     AFHTTPRequestOperationManager *httprequest = [[HttpActionMgr shared]getHttpRequstMgr];
     
+    
+    if (!httprequest) {
+        return NO;
+    }
+    NSURL *file_url = nil;
+    if (self.upload_image) {
+        file_url = [LZUnity  createTempImageUploadFile:self.upload_image];
+    }
+
     [httprequest POST:[self get_action_url] parameters:self.parameter constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+        if (file_url) {
+        [formData appendPartWithFileURL:file_url name:self.upload_image_param_name error:nil];
+        }
         
     } success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        
+        success(self,operation,responseObject);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        
+        failure(self,operation,error);
     }];
     return YES;
 }

@@ -46,4 +46,11 @@ static HttpActionMgr *sharedMgr = nil;
         [[NSHTTPCookieStorage sharedHTTPCookieStorage] deleteCookie:cookie];
     }
 }
+- (void)ClearCookie{
+    NSURL *base_url = [NSURL URLWithString:[sharedMgr getBaseURLString]];
+    NSArray *cookies = [[NSHTTPCookieStorage sharedHTTPCookieStorage] cookiesForURL:base_url];
+    for (NSHTTPCookie *cookie in cookies) {
+        [[NSHTTPCookieStorage sharedHTTPCookieStorage] deleteCookie:cookie];
+    }
+}
 @end
